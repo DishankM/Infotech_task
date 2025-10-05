@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-import WhatYouGetSection from '../components/WhatYouGetSection'
+import HeroSection from '../common/HeroSection'
+import WhatYouGetSection from '../common/WhatYouGetSection'
 
 function Home() {
   return (
