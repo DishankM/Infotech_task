@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react'; 
-import logo from '../assets/logo1.png'; 
+import campanyLogo from '../assets/CompanyLogo.png'
 
 // Define navigation items
 const navItems = [
@@ -58,19 +58,15 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center group cursor-pointer">
             <div className="relative">
               <img
-                className="h-12 w-12 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
-                src={logo} 
+                className="h-12 w-42 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                src={campanyLogo} 
                 alt="Company Logo"
+                
               />
               <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-pink-500/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm group-hover:scale-110"></div>
             </div>
             <div className="ml-3">
-              <span className="text-[26px] font-semi-bold tracking-tight text-gray-900 uppercase leading-none transition-all duration-300 group-hover:text-gray-800">
-                COMPANY
-              </span>
-              <span className="block text-[15px] text-gray-600 tracking-wider transition-all duration-300 group-hover:text-gray-800 group-hover:translate-x-1">
-                business tagline
-              </span>
+              
             </div>
           </div>
 
